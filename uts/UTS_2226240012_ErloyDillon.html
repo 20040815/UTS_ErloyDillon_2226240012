@@ -29,11 +29,11 @@ function hitungTHR() {
   
   // Logika Perhitungan THR
   var thr = 0;
-  if (masaKerja < 1) {
+  if (masaKerja < 12) {
     thr = 0;
-  } else if (masaKerja >= 1 && masaKerja < 5) {
+  } else if (masaKerja >= 1 && masaKerja < 6) {
     thr = gajiPokok * 1;
-  } else if (masaKerja >= 5 && masaKerja < 10) {
+  } else if (masaKerja >= 6 && masaKerja < 12) {
     thr = gajiPokok * 2;
   } else {
     thr = gajiPokok * 3;
